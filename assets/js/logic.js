@@ -1,11 +1,11 @@
-var time = document.getElementById('time')
-var startButton = document.getElementById('start')
+var timeEl = document.getElementById('time')
+var startButtonEl = document.getElementById('start')
 
-// event for start button being clicked - start timer and display questions
-startButton.addEventListener("click", function() {
+
+// event for start button being clicked - start timer
+startButtonEl.addEventListener("click", function() {
     timerCountdown()
 })
-
 
 
 // timer countdown
